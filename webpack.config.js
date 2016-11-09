@@ -12,7 +12,7 @@ const entries = {};
 
 targets.forEach(value => {
   const re = new RegExp(`${jsBasePath}/`);
-  const key = value.replace(re, '')+
+  const key = value.replace(re, '');
   entries[key] = value;
 });
 
