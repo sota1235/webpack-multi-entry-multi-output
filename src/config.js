@@ -2,7 +2,7 @@
  * @fileoverview Config for sample scripts.
  */
 
-export default {
+module.exports = {
   foo: 'BAR',
   hoge: 'FUGA',
 };

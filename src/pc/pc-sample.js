@@ -2,6 +2,6 @@
  * @fileoverview for PC
  */
 
-import config from '../config';
+const config = require('../config');
 
 console.log('Sample script for PC');
